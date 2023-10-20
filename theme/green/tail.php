@@ -28,12 +28,12 @@ if(G5_COMMUNITY_USE === false) {
 			<form action="#" method="post">
 				<input type="email" name="email" placeholder="Your email address"/>
 				
-				<input type="submit" value="Subscribe" class="btn"/>
+				<input type="submit" value="Subscribe" class="green_btn"/>
 			</form>
 		</div>
 		<p class="share">
-			<a href="#"><i class="fab fa-twitter"></i></a>
-			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+			<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
 		</p>
 		<p class="copy">
 			&copy; 2018 portfolio theme.

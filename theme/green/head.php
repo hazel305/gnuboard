@@ -32,7 +32,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="about.html">About us</a></li>
 				</ul>
-				<ul class="hd_login">        
+				<ul class="">        
 					<?php if ($is_member) {  ?>
 					<li><a href="<?php echo G5_BBS_URL ?>/member_confirm.php?url=<?php echo G5_BBS_URL ?>/register_form.php">정보수정</a></li>
 					<li><a href="<?php echo G5_BBS_URL ?>/logout.php">로그아웃</a></li>
@@ -50,7 +50,16 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 	</header>
 	
 	<div class="page_banner about">
-		<h2 class="fancy-box gray main_tt">About</h2>
+		<h2 class="fancy-box gray main_tt">
+		<?php
+			if($board['bo_subject']){
+				echo $board['bo_subject'];
+			}else{
+				echo $g5['title'];
+			}
+		?>	
+		
+		</h2>
 	</div>
 	
 	<div class="main_content subpage container">

@@ -42,7 +42,7 @@ a:hover {
 	text-decoration:underline;
 }
 
-.btn{
+.green_btn{
 	padding:0 32px;
 	line-height: 54px;
 	border:1px solid #f0ad64;
@@ -57,7 +57,7 @@ a:hover {
 	background:none;
 	transition:0.4s;
 }
-.btn:hover {
+.green_btn:hover {
 	background:#f0ad64;
 	color:#fff;
 }
@@ -71,7 +71,7 @@ hr{
 
 
 /* HEADER */
-header {
+body>header {
 	background:rgba(0,0,0,.8);
 	position:fixed;
 	z-index:101;
@@ -85,7 +85,7 @@ header {
 .logo a { 
 	width:54px; height:54px; background:url(../images/logo.png) no-repeat; text-indent:-9999em; display:block;
 }
-nav {	float:right;}
+nav {	float:right; display: flex; gap:10px;}
 
 nav ul li {float:left; margin-left:27px;}
 nav ul li a { color:#fff; text-transform:uppercase; text-decoration:none; font:normal bold  14px/54px 'Open Sans', sans-serif; letter-spacing:0.1em; }
