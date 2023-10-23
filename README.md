@@ -7,3 +7,7 @@
 phpmyadmin에서도 사용자계정을 만들기 
 - greengnu 생성
 
+---
+## theme 바꾸기
+
+- theme 폴더에서 css와 js에 기존에 바꾸고 싶은 파일의 css와 js 추가

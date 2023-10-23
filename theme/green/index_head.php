@@ -27,11 +27,12 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 				<a href="<?php echo G5_URL ?>">Logo</a>
 			</h1>
 			<nav>
-				<ul class="clearfix">
+				<!-- <ul class="clearfix">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="about.html">About us</a></li>
-				</ul>
+				</ul> -->
+				<?php include_once('main_menu.php') ?>
 				<ul class="">        
 					<?php if ($is_member) {  ?>
 					<li><a href="<?php echo G5_BBS_URL ?>/member_confirm.php?url=<?php echo G5_BBS_URL ?>/register_form.php">정보수정</a></li>
