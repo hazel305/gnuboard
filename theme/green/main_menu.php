@@ -9,7 +9,7 @@
             $add_class = (isset($row['sub']) && $row['sub']) ? 'gnb_al_li_plus' : '';
     ?>
     <li>
-        <a href="<?php echo $row['me_link']; ?>" target="_<?php echo $row['me_target']; ?>" class="gnb_1da"><?php echo $row['me_name'] ?></a>
+        <a href="<?php echo $row['me_link']; ?>" target="_<?php echo $row['me_target']; ?>" ><?php echo $row['me_name'] ?></a>
         
     </li>
     <?php
